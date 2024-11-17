@@ -1,1 +1,23 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20% 10% 1fr 5%;
+    'grid-template-rows: repeat (2, 1fr);
+    grid-gap: 1px;
+}
 
+.cabecera{
+    background-color: yellow;
+    text-align: center;
+}
+.menu{
+    background-color: orange;
+}
+.cuerpo{
+    background-color: white;
+    padding-left: 10%;
+}
+
+.pie{
+    background-color: green;
+}
